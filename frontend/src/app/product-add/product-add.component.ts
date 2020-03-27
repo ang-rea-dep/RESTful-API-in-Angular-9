@@ -17,7 +17,7 @@ export class ProductAddComponent implements OnInit {
     createFrom(){
         this.angForm = this.fb.group({  
             ProductName: ['', Validators.required ],  
-            ProductDescription: ['', Validators.required ],  
+            ProductDescription: ['', Validators.required ],
             ProductPrice: ['', Validators.required ]  
           });
     }
